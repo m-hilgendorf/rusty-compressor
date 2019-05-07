@@ -1,0 +1,11 @@
+[package]
+name = "plugin"
+version = "0.1.0"
+authors = ["m-hilgendorf <mike@hilgendorf.audio>"]
+edition = "2018"
+[lib]
+crate-type = ["cdylib"]
+[dependencies]
+vst = {git="https://github.com/rust-dsp/rust-vst.git"}
+dsp = {path="../dsp"}
+crossbeam = "0.7.1"
