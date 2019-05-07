@@ -1,0 +1,7 @@
+[package]
+name = "dsp"
+version = "0.1.0"
+authors = ["m-hilgendorf <mike@hilgendorf.audio>"]
+edition = "2018"
+
+[dependencies]
